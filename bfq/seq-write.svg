@@ -1,0 +1,167 @@
+<svg  xmlns="http://www.w3.org/2000/svg" width="1044" height="1926">
+<rect x="0" y="0" width="1044" height="1926" fill="white"/>
+                  
+                                                    
+<defs>
+<filter id="shadow">
+ <feOffset result="offOut" in="SourceAlpha" dx="4" dy="4" />
+ <feGaussianBlur result="blurOut" in="offOut" stdDeviation="2" />
+ <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+ </filter>
+<filter id="textshadow" x="0" y="0" width="200%" height="200%">
+ <feOffset result="offOut" in="SourceAlpha" dx="1" dy="1" />
+ <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1.5" />
+ <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+ </filter>
+<filter id="labelshadow" x="0" y="0" width="200%" height="200%">
+ <feOffset result="offOut" in="SourceGraphic" dx="3" dy="3" />
+ <feColorMatrix result="matrixOut" in="offOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" /> <feGaussianBlur result="blurOut" in="offOut" stdDeviation="2" />
+ <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+ </filter>
+</defs>
+<rect x="0" y="0" width="1024" height="70" fill="white" stroke="none"/><text x="472" y="25" font-family="sans-serif" font-size="25" font-weight="bold" fill="black" style="text-anchor: middle"></text>
+<rect x="0" y="50" width="1024" height="363" fill="white" stroke="none"/><rect x="15" y="50" width="984" filter="url(#shadow)" height="343" fill="white" stroke="none"/><svg x="0" y="50">
+<path d="M120 312 h 704 V 58 H 120 Z" stroke="black" stroke-width="2" fill="none"/>
+<text x="470" y="30" font-family="sans-serif" font-size="20" fill="black" style="text-anchor: middle">Device IO</text>
+<text x="44" y="185" font-family="sans-serif" transform="rotate(-90 44 185)" font-weight="bold" font-size="16" fill="black" style="text-anchor: middle">Offset (MB)</text>
+<text x="114" y="317" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">136</text>
+<line x1="120" y1="248" x2="822" y2="248" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="255" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">131241</text>
+<line x1="120" y1="186" x2="822" y2="186" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="193" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">262346</text>
+<line x1="120" y1="124" x2="822" y2="124" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="131" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">393451</text>
+<text x="114" y="60" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">524558</text>
+<rect x="178" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="236" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="294" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="352" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="410" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="468" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="526" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="584" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="642" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="700" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="758" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="727.00" y="61.00" width="1.5" height="1.5" rx="0.00" style="stroke:none;fill:blue;stroke-width:0"/>
+<rect x="122.00" y="310.00" width="1.5" height="1.5" rx="0.00" style="stroke:none;fill:blue;stroke-width:0"/>
+<rect x="852" y="38" width="102" height="34" fill="white" filter="url(#shadow)"/>
+<path d="M 867 57 h 8" stroke="blue" stroke-width="8" filter="url(#labelshadow)"/> <text x="880" y="61" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: left"> Writes</text>
+</svg>
+<rect x="0" y="413" width="1024" height="363" fill="white" stroke="none"/><rect x="15" y="413" width="984" filter="url(#shadow)" height="343" fill="white" stroke="none"/><svg x="0" y="413">
+<path d="M120 312 h 704 V 58 H 120 Z" stroke="black" stroke-width="2" fill="none"/>
+<text x="470" y="30" font-family="sans-serif" font-size="20" fill="black" style="text-anchor: middle">Throughput</text>
+<text x="44" y="185" font-family="sans-serif" transform="rotate(-90 44 185)" font-weight="bold" font-size="16" fill="black" style="text-anchor: middle">MB/s</text>
+<text x="114" y="317" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">0</text>
+<line x1="120" y1="248" x2="822" y2="248" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="255" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">100</text>
+<line x1="120" y1="186" x2="822" y2="186" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="193" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">200</text>
+<line x1="120" y1="124" x2="822" y2="124" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="131" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">300</text>
+<text x="114" y="60" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">400</text>
+<rect x="178" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="236" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="294" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="352" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="410" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="468" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="526" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="584" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="642" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="700" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="758" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<path d="M 122 60 L 262 310 L 402 310 L 542 310 L 682 310 L 822 310 " fill="none" stroke="blue" stroke-width="2"/>
+<rect x="852" y="38" width="102" height="34" fill="white" filter="url(#shadow)"/>
+<path d="M 867 57 h 8" stroke="blue" stroke-width="8" filter="url(#labelshadow)"/> <text x="880" y="61" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: left">Writes</text>
+</svg>
+<rect x="0" y="776" width="1024" height="363" fill="white" stroke="none"/><rect x="15" y="776" width="984" filter="url(#shadow)" height="343" fill="white" stroke="none"/><svg x="0" y="776">
+<path d="M120 312 h 704 V 58 H 120 Z" stroke="black" stroke-width="2" fill="none"/>
+<text x="470" y="30" font-family="sans-serif" font-size="20" fill="black" style="text-anchor: middle">IO Latency</text>
+<text x="44" y="185" font-family="sans-serif" transform="rotate(-90 44 185)" font-weight="bold" font-size="16" fill="black" style="text-anchor: middle">latency (ms)</text>
+<text x="114" y="317" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">0</text>
+<line x1="120" y1="248" x2="822" y2="248" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="255" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">24</text>
+<line x1="120" y1="186" x2="822" y2="186" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="193" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">48</text>
+<line x1="120" y1="124" x2="822" y2="124" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="131" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">72</text>
+<text x="114" y="60" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">97</text>
+<rect x="178" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="236" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="294" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="352" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="410" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="468" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="526" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="584" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="642" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="700" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="758" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<path d="M 122 60 L 262 310 L 402 310 L 542 310 L 682 310 L 822 279 " fill="none" stroke="blue" stroke-width="2"/>
+</svg>
+<rect x="0" y="1139" width="1024" height="363" fill="white" stroke="none"/><rect x="15" y="1139" width="984" filter="url(#shadow)" height="343" fill="white" stroke="none"/><svg x="0" y="1139">
+<path d="M120 312 h 704 V 58 H 120 Z" stroke="black" stroke-width="2" fill="none"/>
+<text x="470" y="30" font-family="sans-serif" font-size="20" fill="black" style="text-anchor: middle">Queue Depth</text>
+<text x="44" y="185" font-family="sans-serif" transform="rotate(-90 44 185)" font-weight="bold" font-size="16" fill="black" style="text-anchor: middle">Pending IO</text>
+<text x="114" y="317" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">0</text>
+<line x1="120" y1="248" x2="822" y2="248" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="255" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">101</text>
+<line x1="120" y1="186" x2="822" y2="186" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="193" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">202</text>
+<line x1="120" y1="124" x2="822" y2="124" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="131" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">303</text>
+<text x="114" y="60" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">406</text>
+<rect x="178" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="236" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="294" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="352" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="410" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="468" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="526" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="584" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="642" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="700" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<rect x="758" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<path d="M 122 187 L 262 310 L 402 310 L 542 310 L 682 310 L 822 61 " fill="none" stroke="blue" stroke-width="2"/>
+</svg>
+<rect x="0" y="1502" width="1024" height="424" fill="white" stroke="none"/><rect x="15" y="1502" width="984" filter="url(#shadow)" height="404" fill="white" stroke="none"/><svg x="0" y="1502">
+<path d="M120 312 h 704 V 58 H 120 Z" stroke="black" stroke-width="2" fill="none"/>
+<text x="470" y="30" font-family="sans-serif" font-size="20" fill="black" style="text-anchor: middle">IOPs</text>
+<text x="44" y="185" font-family="sans-serif" transform="rotate(-90 44 185)" font-weight="bold" font-size="16" fill="black" style="text-anchor: middle">IO/s</text>
+<text x="114" y="317" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">0</text>
+<line x1="120" y1="248" x2="822" y2="248" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="255" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">100</text>
+<line x1="120" y1="186" x2="822" y2="186" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="193" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">200</text>
+<line x1="120" y1="124" x2="822" y2="124" style="stroke:lightgray;stroke-width:2;stroke-dasharray:9,12;"/>
+<text x="114" y="131" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">300</text>
+<text x="114" y="60" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: end">400</text>
+<text x="120" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: start">0.00</text>
+<rect x="178" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="178" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">0.50</text>
+<rect x="236" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="236" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">1.00</text>
+<rect x="294" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="294" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">1.50</text>
+<rect x="352" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="352" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">2.00</text>
+<rect x="410" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="410" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">2.50</text>
+<rect x="468" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="468" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">3.00</text>
+<rect x="526" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="526" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">3.50</text>
+<rect x="584" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="584" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">4.00</text>
+<rect x="642" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="642" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">4.50</text>
+<rect x="700" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="700" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">5.00</text>
+<rect x="758" y="307" width="2" height="5" style="stroke:none;fill:black;"/>
+<text x="758" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">5.50</text>
+<text x="820" y="328" font-family="sans-serif" font-size="15" fill="black" style="text-anchor: middle">6.00</text>
+<path d="M 122 60 L 262 310 L 402 310 L 542 310 L 682 310 L 822 260 " fill="none" stroke="blue" stroke-width="2"/>
+<text x="472" y="365" font-family="sans-serif" font-weight="bold" font-size="16" fill="black" style="text-anchor: middle">Time (seconds)</text>
+</svg>
+</svg>
